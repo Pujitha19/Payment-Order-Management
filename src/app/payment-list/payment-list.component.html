@@ -1,0 +1,11 @@
+<div>
+  <button (click)="fetchPayments()">Refresh Payments</button>
+  <app-payment-form (formSubmit)="fetchPayments()"></app-payment-form>
+  <ul>
+    <li *ngFor="let payment of payments">
+      {{ payment.creditorAccount }} - {{ payment.debtorAccount }} - {{ payment.amount }} {{ payment.currency }} - {{ payment.date }}
+      <button (click)="deletePayment(payment.id)">Delete</button>
+      <app-payment-form [payment]="payment" (formSubmit)="fetchPayments()"></app-payment-form>
+    </li>
+  </ul>
+</div>

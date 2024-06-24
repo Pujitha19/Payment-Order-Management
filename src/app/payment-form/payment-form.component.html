@@ -1,0 +1,23 @@
+<form [formGroup]="paymentForm" (ngSubmit)="submitForm()">
+  <div>
+    <label for="creditorAccount">Creditor Account</label>
+    <input id="creditorAccount" formControlName="creditorAccount">
+  </div>
+  <div>
+    <label for="debtorAccount">Debtor Account</label>
+    <input id="debtorAccount" formControlName="debtorAccount">
+  </div>
+  <div>
+    <label for="amount">Amount</label>
+    <input id="amount" formControlName="amount" type="number">
+  </div>
+  <div>
+    <label for="currency">Currency</label>
+    <input id="currency" formControlName="currency">
+  </div>
+  <div>
+    <label for="date">Date</label>
+    <input id="date" formControlName="date" placeholder="DDMMYYYY">
+  </div>
+  <button type="submit">{{ payment ? 'Update' : 'Create' }} Payment</button>
+</form>
