@@ -1,6 +1,21 @@
 # PaymentOrderManagement
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+Payment Order Management is an Angular-based application designed to manage payment orders. It provides functionalities for creating, retrieving, updating, and deleting payment information, streamlining and simplifying the handling of payment transactions.
+
+## Features
+
+- **Create Payment**: Add new payment orders with creditor account, debtor account, amount, currency, and date.
+- **View Payments**: Display a list of all payment orders in a structured table format.
+- **Update Payment**: Update the amount and date of existing payment orders.
+- **Delete Payment**: Remove payment orders from the system.
+
+## Technologies Used
+
+- **Frontend**: Angular
+- **Backend**: Node.js (Express)
+- **Database**: In-memory (for demo purposes, can be extended to use a database like MongoDB or MySQL)
+
 
 ## Development server
 
