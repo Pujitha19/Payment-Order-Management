@@ -1,7 +1,8 @@
 # PaymentOrderManagement
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
-Payment Order Management is an Angular-based application designed to manage payment orders. It provides functionalities for creating, retrieving, updating, and deleting payment information, streamlining and simplifying the handling of payment transactions.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+- Payment Order Management is an Angular-based application designed to manage payment orders.
+- It provides functionalities for creating, retrieving, updating, and deleting payment information, streamlining and simplifying the handling of payment transactions.
 
 ## Features
 
